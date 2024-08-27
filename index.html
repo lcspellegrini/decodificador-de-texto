@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Decodificador de Texto</title>
+</head>
+<body>
+    <header>
+        <img id="logoAlura" src="img/logoalura.png" alt="Logo Alura.">
+    </header>
+    <main id="inicio">
+        <section id="textoBotao">
+            <input id="inputText" placeholder="Digite seu texto"></input>
+            <div id="aviso">
+                <img src="img/aviso.png" alt="Aviso Texto.">
+            </div>
+            <div id="botoes">
+                <button class="botao" id="criptografar" onclick="criptografar()">Criptografar</button>
+                <button class="botao" id="descriptografar" onclick="descriptografar()">Descriptografar</button>
+            </div>
+        </section>
+        <section id="imagemCopiar">
+            <img src="img/outputimage.png" alt="Imagem inicial.">
+            <img id="imagemTextoNao" src="img/textomsg.png" alt="Texto não encontrado.">
+        </section>
+        <section id="outText">
+            <textarea id="outputText" readonly></textarea>
+            <button class="botao" id="copiar" onclick="copiar()">Copiar</button>
+            <button class="botao" id="copiado" >Copiado!</button>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>

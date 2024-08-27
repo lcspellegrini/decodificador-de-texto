@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#logoAlura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 100px;
+}
+
+body {
+    background-color: #F3F5FC;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+#inicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#inputText {
+    border: none;
+    background-color: inherit;
+    color: #0A3871;
+    height: 360px;
+    width: 100%;
+    line-height: 48px;
+    font-size: 32px;
+    resize: none;
+}
+
+#inputText:focus {
+    outline: none;
+}
+
+#inputText::placeholder {
+    color: #0a3871;
+}
+
+#aviso {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    flex-wrap: nowrap;
+}
+
+#botoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 10px;
+    gap: 20px;
+}
+
+
+.botao {
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 24px;
+}
+
+#criptografar {
+    color: #fff;
+    background-color: #072b61;
+    transition: .5s ease;
+}
+
+#criptografar:hover {
+    background-color: green;
+}
+
+#descriptografar {
+    color: #072b61;
+    background-color: #d8dfe8;
+    transition: .5s ease;
+}
+
+#descriptografar:hover {
+    background-color: green;
+}
+
+
+#imagemCopiar {
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    width: 350px;
+    height: 570px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    background-color: white;
+
+}
+
+#imagemCopiar img {
+    width: 250px;
+    height: auto;
+}
+
+#outText {
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    width: 350px;
+    height: 570px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    background-color: white;    
+}
+
+#outText:focus {
+    outline: none;
+}
+
+#outText {
+    display: none;
+}
+
+#outputText {
+    color: rgba(73, 80, 87, 1);
+    border: none;
+    padding: 0;
+    margin: 30px;
+    height: 400px;
+    width: 300px;
+    font-size: 26px;
+    resize: none;
+}
+
+#outputText:focus {
+    outline: none;
+}
+
+#copiar {
+    margin: 30px;
+    color: #0a3871;
+    background-color: #d8dfe8;
+    transition: .5s ease;
+}
+
+#copiar:hover {
+    background-color: green;
+}
+
+#copiado {
+    margin: 30px;
+    color: #0a3871;
+    background-color: #d8dfe8;
+    transition: .5s ease;
+}
