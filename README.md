@@ -18,9 +18,9 @@ Esse é meu primeiro projeto. Um decodificador de textos proposto pela Alura. A 
 
 O projeto é estruturado da seguinte forma:
 
-index.html # Estrutura HTML da aplicação
-style.css # Estilos da aplicação
-script.js # Lógica de codificação/decodificação e validações
+- *index.html # Estrutura HTML da aplicação*
+- *style.css # Estilos da aplicação*
+- *script.js # Lógica de codificação/decodificação e validações*
 
 ## Como Usar
 
